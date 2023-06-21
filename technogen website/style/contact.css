@@ -1,0 +1,136 @@
+
+/* ***LOGO*** */
+
+#container {
+    display: flex;
+    background-color: black;
+    width: 150vh;
+    height: 100px;
+    margin: auto;
+}
+
+#caption {
+    color: white;
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+
+
+
+/* ***NAVBAR*** */
+
+#navbar{
+    display: inline-block;
+    width: 150vh;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+#main {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul#main a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    float: left;
+}
+
+ul#main > li {
+    float: left;
+}
+
+ul#main > li > a {
+    display: block;
+}
+
+ul#main ul {
+    position: absolute;
+}
+
+ul#main li ul {
+    display: none;
+    position: absolute;
+}
+
+ul li a {
+    display: block;
+}
+
+ul#main > li:hover ul {
+    display: block;
+    position: relative;
+}
+
+ul li a:hover {
+    background-color: rgb(207, 132, 34);
+    transition: 0.5s;
+}
+
+
+
+
+/* ***TABLE*** */
+
+table, td{
+    width: 400px;
+    border: 2px solid black;
+}
+
+table {
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#cont_table table{
+    text-align: center;
+}
+
+div#list > ul{
+    margin-left: 90vh;
+    margin-top: 5vh;
+}
+
+
+
+
+/* ***MAP*** */
+
+#map-div{
+    width: 50vh;
+}
+
+#map{
+    margin-left: 70vh;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* ***COPYRİGHT*** */
+
+#copyright {
+    width: 150vh;
+    height: 80px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#copyright_txt {
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
